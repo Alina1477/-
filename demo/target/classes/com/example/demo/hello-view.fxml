@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: DDC5A2;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="-1.0" layoutY="106.0" prefHeight="975.0" prefWidth="1920.0">
+         <children>
+            <ImageView fx:id="background" fitHeight="1289.0" fitWidth="1928.0" layoutX="-1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../background.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="809.0" layoutY="488.0" prefHeight="27.0" prefWidth="233.0" text="Расширенный поиск" textFill="#fef2e4">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="809.0" layoutY="407.0" prefHeight="60.0" prefWidth="302.0" text="Подбор рецепта" textFill="#fef2e4">
+               <font>
+                  <Font name="Arial" size="36.0" />
+               </font>
+            </Label>
+            <TextField layoutX="734.0" layoutY="567.0" prefHeight="50.0" prefWidth="345.0" promptText="Категория">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font></TextField>
+            <TextField layoutX="1243.0" layoutY="567.0" prefHeight="50.0" prefWidth="345.0" />
+            <TextField layoutX="250.0" layoutY="567.0" prefHeight="50.0" prefWidth="345.0" promptText="Название">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+      <Button layoutX="1769.0" layoutY="37.0" mnemonicParsing="false" style="-fx-background-color: B6452C;" text="Sign in" textFill="#fef2e4">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="1679.0" layoutY="39.0" mnemonicParsing="false" text="Log in" textFill="#523634">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="135.0" layoutY="31.0" text="TastySnap" textFill="#523634">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
